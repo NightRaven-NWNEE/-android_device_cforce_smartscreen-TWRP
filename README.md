@@ -37,6 +37,50 @@
 * System
 ![CPU-Z System](Screenshot_cpuz-system.png)
 
+### Additional Technical Specs (Wiki):
+```
+Allwinner H6 SoC Features
+    CPU
+        ARM Cortex-A53 Quad-Core
+        512KB L2-Cache (shared between four cores)
+        32 KB (Instruction) / 32KiB (Data) L1-Cache per core
+        SIMD NEON, VFP4
+        Virtualization
+    GPU
+        ARM Mali-T720 MP2
+        Featuring 2 unified shader cores
+        Complies with OpenGL ES 3.1, OpenCL 1.1
+    Memory
+        DDR3/DDR4/LPDDR2/LPDDR3 controller
+        NAND Flash controller and 64-bit ECC, supports full disk encryption
+        3 MMC controllers, in which MMC2 (eMMC controller) supports full disk encryption
+    Video
+        Ultra HD 4k and Full HD 1080p video decoding of MPEG-2, MPEG-4 SP/ASP GMC, H.263, H.264, H.265, WMV9/VC-1, and VP8
+        BD Directory, BD ISO and BD m2ts video decoding
+        H.264 High Profile 1080P@60fps encoding
+        3840×1080,1920x2160 3D decoding
+        Complies with RTSP, HTTP,HLS,RTMP,MMS streaming media protocol
+    Display
+        Integrated HDMI V2.0 with HDCP2.2 4K@60fps
+        TV CVBS output
+        RGB LCD output
+    Camera
+        Integrated parallel 8-bit I/F YUV422 sensor
+        Support CCIR656 protocol fot NTSC and PAL
+        5M CMOS sensor support
+        Support video capture resolution up to 1080p@30fps
+    Audio
+        Two audio digital-to-analog(DAC) channels 92dB SNR
+        Two differential microphone inputs (one low-noise)
+        Stereo Linein input
+        TDM Digital Microphone input
+    Embedded Controller:
+        AR100 controller.
+    * Thermal Sensor Controller (TSC) providing over-temperature protection interrupt and over-temperature alarm interrupt
+    - AXP805 PMIC
+    - package: FBGA451, 15 mm x 15 mm, 0.65 mm Pitch
+```
+
 ### Links:
 
 [Linux Sunxi Wiki](https://linux-sunxi.org/H6)
