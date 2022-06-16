@@ -1,7 +1,7 @@
 # STILL a Work In Progress! 
 * Basic Device Tree & Kernel.
 
-# TWRP Device Tree for C-Force C-SMART CF011S Smart Screen
+# TWRP Device Tree - C-Force C-SMART CF011S Smart Screen
 
 
 ## Device Specifications
@@ -19,7 +19,9 @@
 | USB                     | 1x USB-A, 2x USB-C (1x USB-C Reserved for Power)                    |
 | Battery                 | Wall Plug                                                           |
 | Dimensions              | 14.57 x 8.66 x 0.24 inches                                          |
-| Display                 | 15.6 inch 1080p IPS, 1080 x 1920 pixels, 16:9 ratio                 |
+| Display                 | 15.6 inch 1080p IPS, 1920 x 1080 pixels, 16:9 Aspect Ratio          |
+| Treble Supported        | Yes                                                                 |
+| VNDK API Level          | 28.0                                                                |
 
 [Linux Sunxi Wiki](https://linux-sunxi.org/H6)
 
