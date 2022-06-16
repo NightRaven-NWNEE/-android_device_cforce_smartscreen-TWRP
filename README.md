@@ -9,7 +9,7 @@
 | ----------------------- | :-----------------------------------------------------------------: |
 | Codename                | SMART-SCREEN                                                        |
 | Chipset / SoC           | Sunxi(sun50iw6p1) Allwinner H6 (28 nm)                              |
-| CPU                     | 4 x Cortex-A53 rev.                                                 |
+| CPU                     | 4 x Cortex-A53 (Revision r0p4)                                      |
 | GPU                     | Mali-T720 MP2 @ 600Mhz                                              |
 | Memory                  | 2 GB DDR4                                                           |
 | Shipped Android version | 9.0 (Android Pie)                                                   |
@@ -25,6 +25,17 @@
 ## Treble Info:
 
 ![Treble Info Readout](Screenshot_TrebleInfo.png)
+
+## CPU-Z Readout:
+
+* SoC
+![CPU-Z SoC](Screenshot_cpuz-soc.png)
+
+* Device
+![CPU-Z Device](Screenshot_cpuz-device.png)
+
+* System
+![CPU-Z System](Screenshot_cpuz-system.png)
 
 ### Links:
 
