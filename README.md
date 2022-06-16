@@ -2,7 +2,9 @@
 * Basic Device Tree & Kernel.
 
 # TWRP Device Tree for C-Force C-SMART CF011S Smart Screen
+
 [CForce Link: C-Force C-SMART CF011S Smart Screen](https://cforcedesign.com/collections/frontpage/products/c-smart-the-world-s-first-portable-android-touch-display)
+
 [Amazon Link](https://www.amazon.com/CF011S-Portable-Assistant-15-6inch-Compatible/dp/B08HQRNCDV)
 
 ## Device Specifications
