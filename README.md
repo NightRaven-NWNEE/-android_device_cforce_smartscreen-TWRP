@@ -12,8 +12,8 @@
 | Chipset / SoC           | Sunxi(sun50iw6p1) Allwinner H6 (28 nm)                              |
 | CPU                     | 4 x Cortex-A53 rev.                                                 |
 | GPU                     | Mali-T720 MP2 @ 600Mhz                                              |
-| Memory                  | 2 GB                                                                |
-| Shipped Android version | 9                                                                   |
+| Memory                  | 2 GB DDR4                                                           |
+| Shipped Android version | 9.0 (Android Pie)                                                   |
 | Internal Storage        | 16GB eMMc                                                           |
 | MicroSD                 | Up to 64 GB                                                         |
 | USB                     | 1x USB-A, 2x USB-C (1x USB-C Reserved for Power)                    |
