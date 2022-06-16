@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_SMART-SCREEN.mk
+     $(LOCAL_DIR)/omni_SMARTSCREEN.mk

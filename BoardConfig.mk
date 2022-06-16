@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/c-force/SMART-SCREEN
+DEVICE_PATH := device/c-force/SMARTSCREEN
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,7 +29,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := SMART-SCREEN
+TARGET_OTA_ASSERT_DEVICE := SMARTSCREEN
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -42,7 +42,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Kernel
-BOARD_KERNEL_CMDLINE := selinux=1 androidboot.selinux=permissive androidboot.dtbo_idx=0,1,2 buildvariant=user veritykeyid=id:0000000000000000000000000000000000000000
+BOARD_KERNEL_CMDLINE := selinux=1 androidboot.selinux=permissive androidboot.dtbo_idx=0,1,2 buildvariant=user veritykeyid=id:7e4333f9bba00adfe0ede979e28ed1920492b40f
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/zImage-dtb
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 BOARD_INCLUDE_RECOVERY_DTBO := true
@@ -58,14 +58,13 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/c-force/SMART-SCREEN
+TARGET_KERNEL_SOURCE := kernel/c-force/SMARTSCREEN
 TARGET_KERNEL_CONFIG := SMART-SCREEN_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := petrel
 
 # Hack: prevent anti rollback
-# TRUE PATCH LVL: 2019-02-05
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
@@ -73,6 +72,6 @@ PLATFORM_VERSION := 16.1.0
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
-TW_SCREEN_BLANK_ON_BOOT := true
+TW_SCREEN_BLANK_ON_BOOT := false
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true

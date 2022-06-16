@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/c-force/SMART-SCREEN
+LOCAL_PATH := device/c-force/SMARTSCREEN
 
