@@ -8,7 +8,7 @@
 
 | Specifications          | C-Force C-Smart CF011S Smart Screen                                 |
 | ----------------------- | :-----------------------------------------------------------------: |
-| Codename                | Petrel                                                              |
+| Codename                | SMART-SCREEN                                                        |
 | Chipset / SoC           | Sunxi(sun50iw6p1) Allwinner H6 (28 nm)                              |
 | CPU                     | 4 x Cortex-A53 rev.                                                 |
 | GPU                     | Mali-T720 MP2 @ 600Mhz                                              |
