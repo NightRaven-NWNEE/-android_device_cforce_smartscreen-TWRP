@@ -1,8 +1,7 @@
-# STILL a Work In Progress! 
-* Basic Device Tree & Kernel.
+# TWRP Recovery Device Tree & Kernel
+* C-Force C-SMART CF011S Smart Screen
 
-# TWRP Device Tree - C-Force C-SMART CF011S Smart Screen
-
+## NOTE: Still a WIP!(Work In Progress)
 
 ## Device Specifications
 
@@ -21,7 +20,13 @@
 | Dimensions              | 14.57 x 8.66 x 0.24 inches                                          |
 | Display                 | 15.6 inch 1080p IPS, 1920 x 1080 pixels, 16:9 Aspect Ratio          |
 | Treble Supported        | Yes                                                                 |
-| VNDK API Level          | 28.0                                                                |
+| VNDK Version            | 28.0                                                                |
+
+## Treble Info:
+
+![Treble Info Readout](Screenshot_TrebleInfo.png)
+
+### Links:
 
 [Linux Sunxi Wiki](https://linux-sunxi.org/H6)
 
