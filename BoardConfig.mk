@@ -42,7 +42,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Kernel
-BOARD_KERNEL_CMDLINE := selinux=1 androidboot.selinux=permissive androidboot.dtbo_idx=0,1,2 buildvariant=user veritykeyid=id:7e4333f9bba00adfe0ede979e28ed1920492b40f
+BOARD_KERNEL_CMDLINE := selinux=1 androidboot.selinux=permissive androidboot.dtbo_idx=0,1,2 buildvariant=user veritykeyid=id:0000000000000000000000000000000000000000
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/zImage-dtb
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 BOARD_INCLUDE_RECOVERY_DTBO := true
@@ -65,6 +65,7 @@ TARGET_KERNEL_CONFIG := SMART-SCREEN_defconfig
 TARGET_BOARD_PLATFORM := petrel
 
 # Hack: prevent anti rollback
+# TRUE PATCH LVL: 2019-02-05
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
