@@ -3,26 +3,29 @@
 
 # TWRP Device Tree for C-Force C-SMART CF011S Smart Screen
 
-[CForce Link: C-Force C-SMART CF011S Smart Screen](https://cforcedesign.com/collections/frontpage/products/c-smart-the-world-s-first-portable-android-touch-display)
-
-[Amazon Link](https://www.amazon.com/CF011S-Portable-Assistant-15-6inch-Compatible/dp/B08HQRNCDV)
 
 ## Device Specifications
 
 | Specifications          | C-Force C-Smart CF011S Smart Screen                                 |
 | ----------------------- | :-----------------------------------------------------------------: |
-| Codename                | petrel?                                                             |
-| Chipset                 | [Sunxi(sun50iw6p1) Allwinner H6 (? nm)](https://linux-sunxi.org/H6) |
+| Codename                | Petrel                                                              |
+| Chipset / SoC           | Sunxi(sun50iw6p1) Allwinner H6 (28 nm)                              |
 | CPU                     | 4 x Cortex-A53 rev.                                                 |
-| GPU                     | Mali-720                                                            |
+| GPU                     | Mali-T720 MP2 @ 600Mhz                                              |
 | Memory                  | 2 GB                                                                |
 | Shipped Android version | 9                                                                   |
 | Internal Storage        | 16GB eMMc                                                           |
 | MicroSD                 | Up to 64 GB                                                         |
-| USB                     | Up to 64 GB                                                         |
+| USB                     | 1x USB-A, 2x USB-C (1x USB-C Reserved for Power)                    |
 | Battery                 | Wall Plug                                                           |
-| Dimensions              |                                                                     |
-| Display                 | 1080 x 1920 pixels, 16:9 ratio,  15.6 inch 1080p IPS                |
+| Dimensions              | 14.57 x 8.66 x 0.24 inches                                          |
+| Display                 | 15.6 inch 1080p IPS, 1080 x 1920 pixels, 16:9 ratio                 |
+
+[Linux Sunxi Wiki](https://linux-sunxi.org/H6)
+
+[CForce Link](https://cforcedesign.com/collections/frontpage/products/c-smart-the-world-s-first-portable-android-touch-display)
+
+[Amazon Link](https://www.amazon.com/CF011S-Portable-Assistant-15-6inch-Compatible/dp/B08HQRNCDV)
 
 ## Copyright
 
