@@ -1,22 +1,21 @@
 # STILL a Work In Progress! 
-# Basic Device Tree & Kernel are here.
+* Basic Device Tree & Kernel.
 
-# TWRP Tree for C-Force CF011S Smart Screen
-TWRP Tree for C-Force CF011S Smart Screen (codename: petrel?)
+# TWRP Device Tree & Kernel for C-Force CF011S Smart Screen (codename: petrel?)
 
-## Device specifications
+## Device Specifications
 
-| Device                  | C-Force CF011S Smart Screen                                 |
+| Specifications          | C-Force CF011S Smart Screen                                 |
 | ----------------------- | :---------------------------------------------------------- |
 | Codename                | petrel?                                                     |
-| SoC                     | Allwinner H6 (? nm)                                         |
-| CPU                     | Quadcore Cortex-A53                                         |
+| Chipset                 | Allwinner H6 (? nm)                                         |
+| CPU                     | 4 x Cortex-A53 rev.                                         |
 | GPU                     | Mali-720                                                    |
 | Memory                  | 2GB RAM                                                     |
 | Shipped Android version | 9                                                           |
 | Internal Storage        | 16GB eMMc                                                   |
 | MicroSD                 | Up to 64 GB                                                 |
-| Battery                 |                                                             |
+| Battery                 | Wall Plug                                                   |
 | Dimensions              |                                                             |
 | Display                 | 1080 x 1920 pixels, 16:9 ratio,  15.1 inch                  |
 
