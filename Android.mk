@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), SMART-SCREEN)
+ifeq ($(TARGET_DEVICE), SMARTSCREEN)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

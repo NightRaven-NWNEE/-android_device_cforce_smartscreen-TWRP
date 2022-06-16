@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_SMART-SCREEN-userdebug
-add_lunch_combo omni_SMART-SCREEN-eng
+add_lunch_combo omni_SMARTSCREEN-userdebug
+add_lunch_combo omni_SMARTSCREEN-eng
