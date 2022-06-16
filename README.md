@@ -1,4 +1,5 @@
-STILL A Work In Progress! Basic Device Tree & Kernel are here.
+# STILL a Work In Progress! 
+# Basic Device Tree & Kernel are here.
 
 # TWRP Tree for C-Force CF011S Smart Screen
 TWRP Tree for C-Force CF011S Smart Screen (codename: petrel?)
