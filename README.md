@@ -1,5 +1,7 @@
 # TWRP Recovery Device Tree & Kernel
-* C-Force C-SMART CF011S Smart Screen
+* For C-Force C-SMART CF011S Smart Screen
+* Device Tree\Kernel were created with [TWRP Device Tree Generator](https://github.com/twrpdtgen) made by [SebaUbuntu](https://github.com/SebaUbuntu).
+* All Credit should go to [SebaUbuntu](https://github.com/SebaUbuntu).
 
 ## NOTE: Still a WIP! (Work In Progress)
 
@@ -24,8 +26,8 @@
 
 
 * Key:
- * Note: /dev/block/by-name/ #Shows All By Name
-  * Note 2: /dev/block/ #Shows All By Disk/Partition
+ - Note: /dev/block/by-name/ #Shows All By Name
+  - Note 2: /dev/block/ #Shows All By Disk/Partition
    - Commands Used: df -h, fdisk -l, & blkid
 
 | Disk / Partition         | Name                     | Type / Label / UUID / Description                                      | Android SM Disk,Partition |
