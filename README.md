@@ -23,58 +23,33 @@
 | VNDK Version            | 28.0                                                                |
 
 
-Key:  (Note: /dev/block/by-name/ #Shows All By Name)
-
+* Key:  (Note: /dev/block/by-name/ #Shows All By Name)
+ * Commands Used: df -h, fdisk -l, & blkid
 | [Android-Storage-Manager-Disk-#] | [Disk/Partition] | [Type/UUID/Description] |
 | :------: | :-----------: | ------------- |
-
 | 179,0 | /dev/block/mmcblk0 | Full Firmware Image |
-
 | 179,16 | mmcblk0boot0 | | |
-
 | 179,32 | mmcblk0boot1 | | |
-
 | 179,1 | mmcblk0p1 | UDISK -> /dev/block/mmcblk0p1 | UUID="6402cc8d-6982-4dbc-a560-fb1b958cf63c" TYPE="f2fs" |
-
 | 179,10 | mmcblk0p10 | metadata -> /dev/block/mmcblk0p10 | |
-
 | 179,11 | mmcblk0p11 | private -> /dev/block/mmcblk0p11 | |
-
 | 179,12 | mmcblk0p12 | frp -> /dev/block/mmcblk0p12 | |
-
 | 179,13 | mmcblk0p13 | empty -> /dev/block/mmcblk0p13 | |
-
 | 179,14 | mmcblk0p14 | dtbo -> /dev/block/mmcblk0p14 | |
-
 | 179,15 | mmcblk0p15 | media_data -> /dev/block/mmcblk0p15 | |
-
 | 259,0 | mmcblk0p16 | Reserve0 -> /dev/block/mmcblk0p16 | SEC_TYPE="msdos" UUID="3011-07B2" TYPE="vfat" |
-
 | 259,1 | mmcblk0p17 | sysrecovery -> /dev/block/mmcblk0p17 | |
-
 | 259,2 | mmcblk0p18 | esm -> /dev/block/mmcblk0p18 | |
-
 | 179,2 | mmcblk0p2 | bootloader -> /dev/block/mmcblk0p2 | SEC_TYPE="msdos" LABEL="Volumn" UUID="0000-0000" TYPE="vfat" |
-
 | 179,3 | mmcblk0p3 | env -> /dev/block/mmcblk0p3 | |
-
 | 179,4 | mmcblk0p4 | boot -> /dev/block/mmcblk0p4 | |
-
 | 179,5 | mmcblk0p5 | system -> /dev/block/mmcblk0p5 | LABEL="/" UUID="31ddde3b-77fc-4443-979f-8b0b8f45a142" TYPE="ext4" |
-
 | 179,6 | mmcblk0p6 | vendor -> /dev/block/mmcblk0p6 | LABEL="vendor" UUID="488e68ea-d6a6-43f7-89be-5856cba59b8e" TYPE="ext4" |
-
 | 179,7 | mmcblk0p7 | misc -> /dev/block/mmcblk0p7 | |
-
 | 179,8 | mmcblk0p8 | recovery -> /dev/block/mmcblk0p8 | |
-
 | 179,9 | mmcblk0p9 | cache -> /dev/block/mmcblk0p9 | UUID="5743c572-037f-403f-8f08-6fef22cc77a6" TYPE="ext4" |
-
-
-Memory Sticks:
-| 179,48 | /dev/block/mmcblk1 | Full Memory Card\Stick
-
-| 179,49 | /dev/block/mmcblk1p1 | Mem Stick Portable Storage| UUID="23B8-07E9" TYPE="vfat"
+| 179,48 | /dev/block/mmcblk1 | Full Memory Card\Stick | |
+| 179,49 | /dev/block/mmcblk1p1 | Mem Stick Portable Storage| UUID="23B8-07E9" TYPE="vfat" |
 
 ## Treble Info:
 
