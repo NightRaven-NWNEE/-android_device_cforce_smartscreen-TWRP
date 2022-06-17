@@ -25,6 +25,7 @@
 
 * Key:  (Note: /dev/block/by-name/ #Shows All By Name)
  * Commands Used: df -h, fdisk -l, & blkid
+
 | [Android-Storage-Manager-Disk-#] | [Disk/Partition] | [Type/UUID/Description] |
 | :------: | :-----------: | ------------- |
 | 179,0 | /dev/block/mmcblk0 | Full Firmware Image |
