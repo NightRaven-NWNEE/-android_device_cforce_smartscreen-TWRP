@@ -22,15 +22,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from SMART-SCREEN device
-$(call inherit-product, device/c-force/SMART-SCREEN/device.mk)
+$(call inherit-product, device/c-force/SMARTSCREEN/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := SMART-SCREEN
-PRODUCT_NAME := omni_SMART-SCREEN
+PRODUCT_DEVICE := SMARTSCREEN
+PRODUCT_NAME := omni_SMARTSCREEN
 PRODUCT_BRAND := C-FORCE
 PRODUCT_MODEL := CF011S
 PRODUCT_MANUFACTURER := c-force

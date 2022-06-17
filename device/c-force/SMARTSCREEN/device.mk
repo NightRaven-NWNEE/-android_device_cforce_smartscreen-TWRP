@@ -16,8 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := device/c-force/SMARTSCREEN
 
-ifeq ($(TARGET_DEVICE), SMART-SCREEN)
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
-endif

@@ -16,5 +16,8 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_SMART-SCREEN-userdebug
-add_lunch_combo omni_SMART-SCREEN-eng
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(TARGET_DEVICE), SMARTSCREEN)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
+endif

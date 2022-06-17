@@ -1,0 +1,26 @@
+# mount point       fstype    device                                                                flags
+/boot               emmc      /dev/block/by-name/boot                                               flags=display="Boot";backup=1;flashimg=1;
+/recovery           emmc      /dev/block/by-name/recovery                                           flags=display="Recovery";backup=1;flashimg=1;
+/misc               emmc      /dev/block/by-name/misc                                               flags=display="Misc";backup=1;flashimg=1;
+/system             ext4      /dev/block/by-name/system                                             flags=display="System";backup=1;
+/system_image       emmc      /dev/block/by-name/system                                             flags=display="System Image";backup=1;flashimg=1;
+/vendor             ext4      /dev/block/by-name/vendor                                             flags=display="Vendor";backup=1;
+/vendor_image       emmc      /dev/block/by-name/vendor                                             flags=display="Vendor Image";backup=1;flashimg=1;
+/cache              ext4      /dev/block/by-name/cache                                              flags=display="Cache";
+/data               f2fs      /dev/block/by-name/UDISK                                              flags=display="Data";
+/root               auto      /dev/block/mmcblk0p1          /dev/block/mmcblk0                      flags=display="SysRootFS";
+
+# External storage
+/extsd              auto      /dev/block/mmcblk1p1          /dev/block/mmcblk1                      flags=fsflags=utf8;removable;storage;wipeingui;display="External SDCard";
+/usb-otga           auto      /dev/block/sda1               /dev/block/sda                          flags=removable;storage;wipeingui;display="USB-OTGA";
+/usb-otgb           auto      /dev/block/sdb1               /dev/block/sdb                          flags=removable;storage;wipeingui;display="USB-OTGB";
+
+# Custom Extras - Not Normally Available
+/soc/bootloader     emmc    /dev/block/by-name/bootloader                                   flags=display="Bootloader";backup=1;flashimg=1;
+/soc/sysrecovery    emmc    /dev/block/by-name/sysrecovery                                  flags=display="Sysrecovery";backup=1;flashimg=1;
+/soc/metadata       emmc    /dev/block/by-name/metadata                                     flags=display="Metadata";backup=1;flashimg=1;
+/soc/private        emmc    /dev/block/by-name/private                                      flags=display="Private";backup=1;flashimg=1;
+/soc/dtbo           emmc    /dev/block/by-name/dtbo                                         flags=display="Dtbo";backup=1;flashimg=1;
+/soc/media_data     emmc    /dev/block/by-name/media_data                                   flags=display="Media_data";backup=1;flashimg=1;
+/soc/esm            emmc    /dev/block/by-name/esm                                          flags=display="Esm";backup=1;flashimg=1;
+/soc/env            emmc    /dev/block/by-name/env                                          flags=display="Env";backup=1;flashimg=1;
